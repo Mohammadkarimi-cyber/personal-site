@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Marriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 40px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 2;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.profile {
+  margin-top: 2rem;
+}
+
+a {
+  color: #11999E;
+}
+
+.web {
+  font-family: sans-serif;
+  font-size: 3rem;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding-top: 100px;
+  background-color: #E4F9F5;
+}
+
+.cloud {
+  margin: .5rem;
+  width: 150px;
+  height: auto;
+}
+.top {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom {
+  position: absolute;
+  left: 300px;
+  bottom: 100px;
+}
+
+.profile img {
+  width: 200px;
+  height: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.design-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.monitor-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr {
+  margin: 80px auto;
+  border: 0;
+  border-top: 8px dotted #EAF6F6;
+  width: 100px;
+}
+
+.btn {
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  background-color: #66BFBF;
+  margin: 70px auto;
+  width: 150px;
+  height: 35px;
+}
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  height: 25vh;
+  padding: 2rem;
+}
+.footer-link {
+  color: #11999E;
+  margin: 30px;
+  text-decoration: none;
+}
+.bottom-container p {
+  color: #EAF6F6;
+  margin-top: 30px;
+}
